@@ -1,8 +1,6 @@
 
 # CoinMarketCap and CoinGecko Listing Sniper Bot
 
-Join our community: https://t.me/drfurrbots
-
 ## Requirements
 * Telegram Account
 
