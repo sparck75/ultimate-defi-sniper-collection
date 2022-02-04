@@ -1,5 +1,3 @@
-## Welcome to Dr. Furr's Sniper Bot. Join the community: https://t.me/drfurrbots.
-
 ### All the variables possible values are explained below, PLEASE SET THE CORRECT VALUES OR ELSE THE BOT WON'T WORK. 
 
 BETA. NOT FULLY TESTED.
