@@ -1,0 +1,36 @@
+{
+  "name": "listingsniper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "listingsniper": "index.js"
+  },
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "async-retry": "^1.3.3",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.4.7",
+    "inquirer": "^8.2.0",
+    "ora": "^5.4.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2",
+    "tdl": "^7.0.0",
+    "tdl-tdlib-addon": "^1.0.1"
+  },
+  "pkg": {
+    "assets": [
+      "./abi.json",
+      "./node_modules/tdl-tdlib-addon/build/Release/td.node"
+    ],
+    "targets": [
+      "node16-linux-x64"
+    ],
+    "outputPath": "dist"
+  }
+}

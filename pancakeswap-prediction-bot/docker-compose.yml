@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  pcshoneypotapi:
+    image : pcs-prediction-bot:latest
+    container_name: pcs-prediction-bot
+    stdin_open: true
+    tty: true
+    restart: always
+    volumes:
+      - type: bind
+        source: ./.env
+        target: /app/.env

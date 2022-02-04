@@ -1,0 +1,33 @@
+{
+  "name": "fairlaunch-sniper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "bin": {
+    "fairlaunch-sniper": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "dependencies": {
+    "async-retry": "^1.3.3",
+    "chalk": "^3.0.0",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.2",
+    "web3": "^1.6.1"
+  },
+  "pkg": {
+    "targets": [
+      "node16-linux-x64"
+    ],
+    "outputPath": "dist"
+  }
+}
