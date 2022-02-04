@@ -1,7 +1,5 @@
 # Pancakeswap Prediction Bot
 
-Join our community: https://t.me/drfurrbots
-
  - With all of my bots you can find pre-compiled binaries in the dist folder. You should be able to run this bot anywhere (even mobile) without worrying about other dependencies.
  - I also removed the bullshit automatic "donation" that the original and other forks have. 
 
